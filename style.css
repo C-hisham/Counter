@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #8f21ad;
+    overflow: hidden;
+}
+
+::selection {
+    background: rgba(26, 188, 156, 0.3);
+}
+
+p{
+    text-align: center;
+}
+
+#colorid {
+    margin-top: 20px;
+    color: #038904;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+.container {
+    max-width: 500px;
+    padding: 0 20px;
+    margin: 100px auto;
+}
+
+.wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper form {
+    padding: 30px 25px 25px 25px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row.button {
+    height: 45px;
+    margin-bottom: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.wrapper form .row input {
+    height: 100%;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .button input.centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+    width: fit-content;
+    height: 50px;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+
+form .row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+
+.wrapper form .button input {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+
+form .button input:hover {
+    background: #12876f;
+}
